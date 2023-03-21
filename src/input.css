@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.responsiveNav {
+    @apply md:flex-col md:text-[30px] md:max-h-0 md:overflow-hidden md:duration-300 md:transform md:scale-y-0 md:origin-top md:items-end md:absolute md:top-[75px] md:right-5 md:bg-[#515566] dark:md:bg-[#1f2235] md:px-5 md:py-5 md:backdrop-blur-md md:border-2 md:border-white md:border-t-0;
+  }
